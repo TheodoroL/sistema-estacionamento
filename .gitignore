@@ -1,0 +1,50 @@
+# .gitignore para projeto C# (.NET)
+
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de log
+*.log
+
+# Configurações locais
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Backup
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros
+project.lock.json
+project.fragment.lock.json
+*.ide
+*.dbmdl
+*.pdb
+*.cache
+*.vspscc
+*.vssscc
+
+# Pacotes NuGet
+*.nupkg
+# Pasta de pacotes (caso não queira versionar)
+#packages/
+
+# Arquivos de publicação
+*.publish.xml
+
+# Arquivos de ambiente
+.env
+.env.*
